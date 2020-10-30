@@ -26,6 +26,8 @@ func (s Server) pay(ctx context.Context, req models.ReqAPI) (resp models.RespAPI
 		//check payment in your database by request ID, if exists return 107, duplicate payments
 		if isExists(req.ID){
 			resp.Code = 107
+			//if payment successfully processed and final status return 108 code
+			//resp.Code = 108
 			return
 		}
 	*/

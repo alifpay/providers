@@ -10,6 +10,7 @@ import (
 type ReqAPI struct {
 	ID      uint64                 `json:"id"`
 	Action  string                 `json:"action"`
+	SrvID   string                 `json:"srvId"`
 	Account string                 `json:"account"`
 	Amount  decimal.Decimal        `json:"amount"`
 	Info    map[string]interface{} `json:"info"`
