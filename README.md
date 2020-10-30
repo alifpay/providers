@@ -1,2 +1,2 @@
-# providers.github.io
+# providers
 Standart Protocol API, Протокол взаимодействия с провайдерами
