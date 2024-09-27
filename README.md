@@ -1,4 +1,6 @@
 # providers
+move to https://alifcapital.github.io/providers
+
 Standard Protocol API, Протокол взаимодействия с провайдерами
 https://alifpay.github.io
 
